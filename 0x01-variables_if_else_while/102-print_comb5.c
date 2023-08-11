@@ -5,7 +5,7 @@
  *
  * Description: using sizeof to print the size of various types.
  *
- * Return: 0
+ * Return: i0
 */
 
 int main(void)
@@ -20,7 +20,7 @@ int main(void)
 			if (secondDigit != firstDigit)
 			{
 				putchar((firstDigit / 10) + 48);
-				putchar((firstdigit % 10) + 48);
+				putchar((firstDigit % 10) + 48);
 				putchar(' ');
 				putchar((secondDigit / 10) + 48);
 				putchar((secondDigit % 10) + 48);
@@ -33,7 +33,7 @@ int main(void)
 			}
 			secondDigit++;
 		}
-		firstdigit++;
+		firstDigit++;
 	}
 	putchar('\n');
 	return (0);
