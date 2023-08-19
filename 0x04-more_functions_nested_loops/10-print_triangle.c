@@ -21,9 +21,9 @@ void print_triangle(int size)
 			for (base = 1; base <= size; base++)
 			{
 				if ((hight + base) <= size)
-					_putchar(" ");
+					_putchar(' ');
 				else
-					_putchar("#");
+					_putchar('#');
 			}
 			_putchar('\n');
 		}
