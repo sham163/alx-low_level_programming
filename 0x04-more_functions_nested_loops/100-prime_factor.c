@@ -54,8 +54,10 @@ void largest_prime_factor(long int num)
 /**
  * main - Entry point
  *
- * return: Always 0 (success)
- */
+ * Description:
+ *
+ * Return: Always 0 (Success)
+*/
 
 int main(void)
 {
