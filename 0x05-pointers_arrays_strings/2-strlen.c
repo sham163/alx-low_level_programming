@@ -9,9 +9,14 @@
 
 int _strlen(char *s)
 {
-	int len;
-
-	len = strlen(*s);
-
-	return (len);
+       int i = 0;
+       int length = 0;
+       
+       char sham = *s;
+       
+       while (s[i] != '\0'){
+           length += 1;
+           i++;
+       }
+       return (length);
 }
