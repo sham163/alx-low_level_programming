@@ -13,7 +13,6 @@ int _strlen(char *s)
 int i = 0;
 int length = 0;
 
-char sham = *s;
 
 while (s[i] != '\0')
 {
