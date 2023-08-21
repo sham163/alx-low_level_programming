@@ -9,7 +9,7 @@
 
 void _puts(char *str)
 {
-	for (int i = 0; i <= strlen(*str); i++)
-		Printf("%d", *str[i]);
+	for (int i = 0; i <= strlen(str); i++)
+		_putchar(str[i]);
 	_putchar('\n');
 }
