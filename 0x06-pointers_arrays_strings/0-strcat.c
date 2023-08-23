@@ -24,3 +24,6 @@ for (i = 0; i <= ls; i++)
 dest[ld] = src[i];
 ld++;
 }
+
+return(dest);
+}
