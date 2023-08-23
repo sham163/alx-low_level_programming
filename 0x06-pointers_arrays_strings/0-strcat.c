@@ -25,5 +25,5 @@ dest[ld] = src[i];
 ld++;
 }
 
-return(dest);
+return (dest);
 }
