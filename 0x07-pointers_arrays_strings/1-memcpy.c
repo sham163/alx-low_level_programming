@@ -4,7 +4,7 @@
  * Description: _memcpy - a function that copies memory area.
  * @dest: memory area
  * @src: source
- * @n length of src to be copied
+ * @n: length of src to be copied
  *
  * Return: the pointer to dest
  */
