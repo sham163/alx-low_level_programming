@@ -26,7 +26,7 @@ else
 
 
 if (haystack[i] != needle[j] && needle[j] == '\0')
-return (NULL);
+return (0);
 }
 
 
