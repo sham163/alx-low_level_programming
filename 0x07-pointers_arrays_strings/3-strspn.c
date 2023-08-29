@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * Description: _strspn - a function that gets the length of a prefix substring.
+ * Description: _strspn - a function that gets
+ * the length of a prefix substring.
  * @s: string
  * @accept: bytes
  *
