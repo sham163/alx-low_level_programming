@@ -19,7 +19,7 @@ for (j = 0; needle[j] != '\0'; j++)
 {
 if (haystack[i] == needle[j])
 {
-k = &haystack[i];
+k = &needle[j];
 return (k);
 }
 else
