@@ -25,11 +25,11 @@ return (k);
 else
 
 
-if (haystack[i] != needle[j] && needle[j] == '\0')
+if (haystack[i] != needle[j])
+break;
+}
+
+
+}
 return (0);
-}
-
-
-}
-
 }
