@@ -4,7 +4,7 @@
  * Description: _sqrt_recursion - a function that returns
  * the natural square root of a number.
  * @n: int input parameter
- *
+ * @val: square root
  * Return: natural square root of a number.
  */
 
@@ -18,7 +18,7 @@ int _sqrt_recursion(int n)
  * Description: square - find square root
  * @n: int to find square root
  * @val: square root
- * Return: int
+ * Return: the square root
  */
 
 int square(int n, int val)
