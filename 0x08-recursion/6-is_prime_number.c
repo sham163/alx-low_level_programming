@@ -9,25 +9,25 @@
  * otherwise return 0.
  */
 
-int check_prime(int n, int j);
+int check(int n, int j);
 int is_prime_number(int n)
 {
-return (check_prime(n, 2));
+return (check(n, 2));
 }
 
 /**
- * Description: check_prime - check all number < n
+ * Description: check - check all number < n
  * @n: int
  * @j: int
  * Return: int
  */
 
-int check_prime(int n, int j)
+int check(int n, int j)
 {
-if (j >= n && n > 1)
-return (1);
-else if (n % j == 0 || n <= 1)
+if (n % j == 0 || n <= 1)
 return (0);
+else if (j >= n && n > 1)
+return (1);
 else
-return (check_prime(n, j + 1));
+return (check(n, j + 1));
 }
