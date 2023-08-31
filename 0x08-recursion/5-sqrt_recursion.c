@@ -4,29 +4,29 @@
  * Description: _sqrt_recursion - a function that returns
  * the natural square root of a number.
  * @n: int input parameter
- * @val: square root
+ * @x: square root
  * Return: natural square root of a number.
  */
 
-int square(int n, int val);
+int sq(int n, int x);
 int _sqrt_recursion(int n)
 {
-	return (square(n, 1));
+	return (sq(n, 1));
 }
 
 /**
- * Description: square - find square root
+ * Description: sq - find square root
  * @n: int to find square root
- * @val: square root
+ * @x: square root
  * Return: the square root
  */
 
-int square(int n, int val)
+int sq(int n, int x)
 {
-	if (val * val == n)
-		return (val);
-	else if (val * val < n)
-		return (square(n, val + 1));
+	if (x * x == n)
+		return (x);
+	else if (x * x < n)
+		return (sq(n, x + 1));
 	else
 		return (-1);
 }
