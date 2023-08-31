@@ -10,12 +10,15 @@
 
 int is_prime_number(int n)
 {
-if (n <= 1) {
-return (0);  // Numbers less than or equal to 1 are not prime
+if (n <= 1)
+{
+return (0);
 }
-for (int i = 2; i * i <= n; ++i) {
-if (n % i == 0) {
-return (0);  // If divisible by any number, not prime
+for (int i = 2; i * i <= n; ++i)
+{
+if (n % i == 0)
+{
+return (0);
 }
 }
 
