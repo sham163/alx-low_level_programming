@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * Description: main - a program that multiplies two numbers.
@@ -9,17 +9,17 @@
 
 int main(int argc, char *argv[])
 {
-	int mu;
+	int mu = 1;
 
 	if (argc == 3)
 	{
-		mu = atoi(argv[1] * argv[2]);
+		mu = mu * atoi(argv[1] * argv[2]);
 		printf("%d\n", mu);
+		return (0);
 	}
 	else
 	{
 		printf("Error\n");
 		return (1);
 	}
-	return (0);
 }
