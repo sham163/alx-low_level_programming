@@ -9,17 +9,17 @@
 
 int main(int argc, char *argv[])
 {
-	int mu = 1;
+	int mu;
 
 	if (argc == 3)
 	{
-		mu = mu *  atoi(argv[1] * argv[2]);
+		mu = atoi(argv[1] * argv[2]);
 		printf("%d\n", mu);
-		return (0);
 	}
 	else
 	{
 		printf("Error\n");
 		return (1);
 	}
+	return (0);
 }
