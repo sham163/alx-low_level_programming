@@ -13,8 +13,8 @@ int main(int argc, char const *argv[])
 	int i;
 		for (i = 0; i < argc; i++)
 		{
-			argc--;
 			printf("%s\n", argv[i]);
+			argc--;
 		}
 	return (0);
 }
