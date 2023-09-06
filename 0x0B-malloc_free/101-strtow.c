@@ -13,7 +13,7 @@ int count(char *str)
 
 	for (s = 0; str[s]; s++)
 	{
-		if (str[s] == " ")
+		if (str[s] == ' ')
 		{
 			if (str[s + 1] != " " && str[s + 1] != '\0')
 				t += 1;
@@ -52,9 +52,9 @@ char **strtow(char *str)
 	s = 0;
 	while (str[s])
 	{
-		if ((s == 0 || str[s - 1] == " ") && str[s] != " ")
+		if ((s == 0 || str[s - 1] == ' ') && str[s] != ' ')
 		{
-			for (t = 1; str[s + t] && str[s + t] != " "; t++)
+			for (t = 1; str[s + t] && str[s + t] != ' '; t++)
 				;
 			t++;
 			ptr[wx] = malloc(t * sizeof(char));
