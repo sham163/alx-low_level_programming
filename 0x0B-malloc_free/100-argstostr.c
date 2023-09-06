@@ -10,6 +10,7 @@
 int _length(char *str)
 {
 	int l;
+
 	for (l = 0; str[l] != '\0'; l++)
 		;
 	return (l);
