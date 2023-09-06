@@ -37,7 +37,7 @@ int **alloc_grid(int width, int height)
 				return(NULL);
 			}
 
-			for (j = 0; j < width; j++)
+			for (t = 0; t < width; t++)
 			{
 				sham[s][t] = 0;
 			}
