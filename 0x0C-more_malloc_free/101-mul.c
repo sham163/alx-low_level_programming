@@ -38,7 +38,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 3)
 	{
-		puts("Error");
+		puts("Error ");
 		exit(98);
 	}
 
