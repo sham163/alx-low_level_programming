@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+#include <string.h>
 
 /**
  * Description: _calloc - a function that allocates
@@ -17,19 +18,16 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	if (nmemb == 0 || size == 0)
 		return (NULL);
 
-	ptr = (char *) malloc(nmemb * sizeof(int));
+	ptr = malloc(nmemb * sizeof(int));
 
 	if (ptr == NULL)
 	{
 		return (NULL);
 	}
-	else
-	{
 
-		for (i = 0; i < nmemb; i++)
-			ptr[i] = 0;
-		return (ptr);
-	}
+	memset(ptr,0,sizeof(int) * nmemb);
+
+	return (ptr);
 }
 
 
