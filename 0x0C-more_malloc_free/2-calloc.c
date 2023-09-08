@@ -25,7 +25,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	}
 
 	sham = (char *)ptr;
-	for (i = 0; i < size; i++)
+	for (i = 0; 1 < size; i++)
 		sham[i] = 0;
 	return (ptr);
 }
