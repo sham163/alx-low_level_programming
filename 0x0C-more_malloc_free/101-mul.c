@@ -18,7 +18,7 @@ void print_int(unsigned long int n)
 	for (; d >= 1; n %= d, d /= 10)
 	{
 		r = n / d;
-		_putchar('0' + r);
+		putchar('0' + r);
 	}
 }
 
@@ -43,7 +43,7 @@ int main(int argc, char *argv[])
 	}
 
 	print_int(atoi(argv[1]) * atoi(argv[2]));
-	_putchar('\n');
+	putchar('\n');
 
 	return (0);
 }
