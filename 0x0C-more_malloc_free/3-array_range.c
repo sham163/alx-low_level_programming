@@ -4,7 +4,7 @@
 /**
  * Description: array_range - a function that creates an array of integers.
  * @min: int parameter
- * @min: int parameter
+ * @max: int parameter
  * Return: array of integer
  */
 
