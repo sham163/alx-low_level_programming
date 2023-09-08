@@ -23,13 +23,11 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	{
 		return (NULL);
 	}
-	else
-	{
-		sham = (char *)ptr;
-		for (i = 0; i < size; i++)
-			sham[i] = 0;
-		return (ptr);
-	}
+
+	sham = (char *)ptr;
+	for (i = 0; i < size; i++)
+		sham[i] = 0;
+	return (ptr);
 }
 
 
