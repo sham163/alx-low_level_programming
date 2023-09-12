@@ -1,5 +1,5 @@
 #include "dog.h"
-#include <stdlib.h>
+
 
 /**
  * Description: init_dog - init a dog
