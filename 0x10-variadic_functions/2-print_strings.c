@@ -20,10 +20,6 @@ va_start(ptr, n);
 s = 0;
 while (s < n)
 {
-if (va_arg(ptr, char *) == NULL)
-{
-printf("(nil)");
-}
 printf("%s", va_arg(ptr, char *));
 if (separator != NULL)
 {
