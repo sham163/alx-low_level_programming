@@ -13,7 +13,7 @@ int sum_them_all(const unsigned int n, ...)
 {
 	va_list ptr;
 
-	int s, sum = 0;
+	unsigned int s, sum = 0;
 
 	va_start(ptr, n);
 
