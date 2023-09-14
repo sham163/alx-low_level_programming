@@ -9,13 +9,13 @@ void print_all(const char * const format, ...)
 {
 va_list args;
 char *separator = "";
-int i = 0;
+int s = 0;
 
 va_start(args, format);
 
-while (format && format[i])
+while (format && format[s])
 {
-switch (format[i])
+switch (format[s])
 {
 case 'c':
 printf("%s%c", separator, va_arg(args, int));
@@ -35,11 +35,11 @@ printf("%s%s", separator, str);
 }
 break;
 default:
-i++;
+s++;
 continue;
 }
 separator = ", ";
-i++;
+s++;
 }
 printf("\n");
 va_end(args);
