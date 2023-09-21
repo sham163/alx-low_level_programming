@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include<string.h>
 
 /**
  * Description: struct list_s - struct list_s

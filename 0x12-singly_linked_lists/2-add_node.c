@@ -22,9 +22,9 @@ if (!n->str)
 free(n);
 return (NULL);
 }
-n->len = _strlen(n->str);
+n->len = strlen(n->str);
 }
 n->next = *head;
 *head = n;
 return (n);
-
+}
