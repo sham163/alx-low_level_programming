@@ -4,6 +4,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ * Description: struct list_s - struct list_s
+ * @str: str
+ * @len: len
+ * @next: next
+ */
+
+
+
 typedef struct list_s
 {
 char *str;
