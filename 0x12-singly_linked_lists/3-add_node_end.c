@@ -22,6 +22,9 @@ if (n->str == NULL)
 free(n);
 return (NULL);
 }
+n->len = strlen(str);
+n->next = NULL;
+
 if (!*head)
 {
 *head = n;
