@@ -5,7 +5,7 @@
  *
  * Return: Always 0.
  */
-void before(void);
+
 
 int main(void)
 {
