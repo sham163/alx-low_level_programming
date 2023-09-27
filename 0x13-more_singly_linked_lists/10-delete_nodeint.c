@@ -19,7 +19,7 @@ if (head == NULL || *head == NULL)
 return (-1);
 }
 
-if (index != 0)
+if (!index)
 {
 no = *head;
 *head = (*head)->next;
