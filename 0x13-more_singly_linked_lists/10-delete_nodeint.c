@@ -1,7 +1,8 @@
 #include "lists.h"
 
 /**
-* Description: delete_nodeint_at_index - a function that deletes the node at index
+* Description: delete_nodeint_at_index - a function that
+* deletes the node at index
 * @head: head
 * @index: index
 * Returns: 1 if it succeeded, -1 if it failed
@@ -30,7 +31,7 @@ while (no != NULL)
 if (s == index)
 {
 prn->next = no->next;
-free (no);
+free(no);
 return (1);
 }
 s++;
