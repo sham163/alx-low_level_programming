@@ -8,46 +8,40 @@
 * Return: 1 if it succeeded, -1 if it failed
 */
 
+
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
-listint_t *prev, *curr;
-unsigned int position = 0;
+listint_t *no, *prn;
+unsigned int s = 0;
 
-if (!head || !*head)
+if (head == NULL || *head == NULL)
 {
 return (-1);
 }
 
-
-
-if (!index)
+if (index != 0)
 {
-curr = *head;
+no = *head;
 *head = (*head)->next;
-free(curr);
+free(no);
 return (1);
 }
 
-curr = *head;
+no = *head;
 
-
-while (curr != NULL)
+while (no != NULL)
 {
-if (position == index)
+if (s == index)
 {
-prev->next = curr->next;
-free(curr);
+prn->next = no->next;
+free(no);
 return (1);
 }
-position++;
-prev = curr;
-curr = curr->next;
+s++;
+prn = no;
+no = no->next;
 }
-
-
-
-
 return (-1);
 
-}
 
+}
