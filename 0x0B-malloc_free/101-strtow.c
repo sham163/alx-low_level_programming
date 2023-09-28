@@ -67,7 +67,7 @@ char **strtow(char *str)
 				free(ptr);
 				return (NULL);
 			}
-			for(v = 0; v < t; v++)
+			for (v = 0; v < t; v++)
 				ptr[wx][v] = str[t + v];
 			ptr[wx][v] = '\0';
 			wx += 1;
