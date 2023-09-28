@@ -15,7 +15,7 @@ int count(char *str)
 	{
 		if (str[s] == ' ')
 		{
-			if (str[s + 1] != " " && str[s + 1] != '\0')
+			if (str[s + 1] != ' ' && str[s + 1] != '\0')
 				t += 1;
 		}
 		else if (s == 0)
