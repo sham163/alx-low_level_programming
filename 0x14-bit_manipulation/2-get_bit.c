@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * Description: get_bit - a function that returns the value of a bit at a given index.
+ * Description: get_bit - a function that returns
+ * the value of a bit at a given index.
  * @n: number
  * @index: index
  * Return: the value of the bit at index index or -1 if an error occured
