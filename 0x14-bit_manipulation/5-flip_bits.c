@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * Description: int flip_bits - unction that returns the number of bits
+ * Description: flip_bits - unction that returns the number of bits
  * @n: number
  * @m: m
  * Return: number
